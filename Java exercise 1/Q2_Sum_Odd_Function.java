@@ -1,4 +1,4 @@
-
+//Write a function to print the sum of all odd numbers from 1 to n.
 import java.util.Scanner;
 
 public class Q2_Sum_Odd_Function {
