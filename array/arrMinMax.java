@@ -7,7 +7,7 @@ public class arrMinMax {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the size of array");
+        System.out.print("Enter the size of array: ");
         int n = sc.nextInt();//n=size of array
 
         int[] arr = new int[n];//intialize the arr as array
