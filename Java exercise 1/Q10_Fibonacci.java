@@ -21,6 +21,8 @@ public class Q10_Fibonacci {
             int next = first+second;
             first = second;
             second = next;
+
+            sc.close();
         }
     }
 }
