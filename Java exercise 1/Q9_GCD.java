@@ -23,5 +23,7 @@ public class Q9_GCD {
         int num2 = sc.nextInt();
 
         System.out.println("The GCD of two number is: "+gCD(num1,num2));
+
+        sc.close();
     }
 }
