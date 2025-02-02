@@ -42,3 +42,38 @@ Example:
 for(int i=0;i<marks.length;i++){
 	System.out.println(marks[i]);
 }
+
+2D Array(Two dimentional array):
+A 2D array is a collection of arrays of the same type stored in a table-like structur or matrix.
+Syntax: type[][] arrayName = new type[rows][cols];
+Example: int[][] matrix =  new type[3][5];// a matrix with 3 rows and 5 coloumns
+
+Note: you should basic knowledge about nested loops to learn 2D arrays.
+
+Input:
+arrayName[row][col]=value;
+Example:
+matrix[0][0]=10;//first row first coloumn
+
+Input using for loop:
+//for rows
+for(int i=0;i<rows;i++){
+	//for coloumns
+	for(int j=0;j<cols;j++){
+		matrix[i][j]=sc.nextInt();
+	}
+}
+
+Output:
+System.out.println(arrayName[row][col]);
+Example:
+System.out.println(matrix[0][0]);//print first row first coloumn
+
+Output using for loop:
+//for rows
+for(int i=0;i<rows;i++){
+	//for coloumns
+	for(int j=0;j<cols;j++){
+		System.out.println(matrix[i][j]);
+	}
+}
