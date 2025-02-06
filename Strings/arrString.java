@@ -18,5 +18,7 @@ public class arrString{
             totLength += array[i].length();
         }
         System.out.println("Cumulative length of all strings is "+totLength);
+
+        sc.close();
     }
 }
