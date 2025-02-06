@@ -1,0 +1,30 @@
+String in Java:
+In Java, String is the type of objects that can store the sequence of characters enclosed by double quotes and every character is stored in 16 bits.
+A string acts the same as an array of characters.
+
+String Declarartions: String variableName = "characters";
+Example: String name = "John";
+
+String Input: String  variableName = sc.Next();
+
+String length: variableName.length();
+
+Concatenation:
+String variableName3 = variableName1 + variableName2;
+Example:
+String fullname = firstName + lastName ;
+
+charAt Method: Returns the character at the specified index in a string.
+Syntax: fullname.charAt(index);
+
+String compare: 
+if  variable1 > variable2 , it will retuen +ev number.
+if variable1 = variable2 , it will return 0.
+if variable1 < variable2 , it will return -ve number.
+Syntax:
+if(variable1.compareTo(variable2) == 0){
+    statement;
+}
+
+Substring Function:
+String variableName = variableName1.substring(startindex, endindex);
