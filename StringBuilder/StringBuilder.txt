@@ -1,0 +1,21 @@
+Stringbuilder:
+String Class in Java creates an immutable sequence of characters, 
+whereas StringBuilder creates a mutable sequence of characters, offering an alternative.
+
+Initialize:
+StringBuilder sb = new StringBuilder("initial string");
+
+chatAt method:
+sb.charAt(0) returns the character at the specified index in the sequence.
+
+setCharAt method:
+sb.setCharAt(0, 'a') sets the character at the specified index in the sequenc
+
+insert method:
+sb.insert(0, "inserted string") inserts the specified string at the specified index in th
+
+delete method:
+sb.delete(0, 1) deletes the characters in a specified range in the sequence.
+
+append method:
+sb.append("appended string") appends the specified string to the end of the sequence.
