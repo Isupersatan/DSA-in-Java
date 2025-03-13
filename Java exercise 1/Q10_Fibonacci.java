@@ -22,7 +22,8 @@ public class Q10_Fibonacci {
             first = second;
             second = next;
 
-            sc.close();
+            
         }
+        sc.close();
     }
 }
