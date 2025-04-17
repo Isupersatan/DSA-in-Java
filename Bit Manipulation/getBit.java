@@ -6,10 +6,11 @@
 public class getBit {
 
     public static void main(String[] args) {
-        int n = 5; // 0101
-        int pos = 2;
-        int bitMask = 1 << pos;
+        int n = 5; //  0101 in binary
+        int pos = 2;// position of bit to be cleared
+        int bitMask = 1 << pos;// create a mask
 
+        // get the bit at pos
         if ((bitMask & n) == 0) {
             System.out.println("Bit is Zero");
         } else {
