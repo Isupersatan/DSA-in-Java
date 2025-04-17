@@ -1,0 +1,20 @@
+Bit Manipulation
+Get Bit:
+Get The third bit (pos=2) of a number n,(n=0101)
+i) Bit Mask:1<<i
+ii) And
+
+Set Bit:
+Set second bit(pos=1) of a number n.(n=0101)
+i)Bit Mask:1<<i
+ii)OR
+
+Clear Bit:
+clear the Third bit (pos=2) of a number n.(n=0101)
+i)Bit Mask:1<<i
+ii) And with NOT
+
+Update Bit:
+Update the second bit (pos=1) of a number n to 1.(n=0101)
+for 1 clear function
+for 0 set function
