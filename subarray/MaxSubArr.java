@@ -1,4 +1,4 @@
-//subarrays are the countinuos part of and array
+//subarrays are the countinuos part of an array
 //if arr length = n, total number of sub array = n*(n+1)/2.
 public class MaxSubArr{
     public static void main(String []args){
